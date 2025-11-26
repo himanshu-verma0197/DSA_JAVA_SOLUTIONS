@@ -1,9 +1,9 @@
-class Queue {
+class Queu {
     int size;
     int front, rear;
     int[] arr;
 
-    Queue(int size) {
+    Queu(int size) {
         this.size = size;
         arr = new int[size];
         front = -1;
@@ -37,7 +37,7 @@ class Queue {
 
 public class traversal_queue {
     public static void main(String[] args) {
-        Queue q = new Queue(5);
+        Queu q = new Queu(5);
         q.enqueue(10);
         q.enqueue(20);
         q.enqueue(30);
