@@ -20,10 +20,19 @@ public class stack_impl_linkedlist {
             newNode.next=top;
              top=newNode;
          }
+         void remove(){
+               if(top==null){
+                System.out.println("stack is empty");
+                return;
+               }
+                System.out.println("Popped: " + top.data);
+    top = top.next;
+             
+         }
          void display(){
             while(top!=null)
             {
-                System.out.println(top.data+"--->");
+                System.out.print(top.data+" ");
                 top=top.next;
             }
     
@@ -33,6 +42,7 @@ public class stack_impl_linkedlist {
              st.push(10);
              st.push(20);
              st.push(30);
+            st.remove();
              st.display();
          }
 }

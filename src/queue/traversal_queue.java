@@ -1,3 +1,4 @@
+package queue;
 class Queu {
     int size;
     int front, rear;
