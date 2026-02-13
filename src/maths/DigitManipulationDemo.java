@@ -84,7 +84,7 @@ public class DigitManipulationDemo {
 
     public static void main(String[] args) {
         DigitManipulationDemo dm = new DigitManipulationDemo();
-//        dm.findDigitsUsingFormula(0);
+        dm.findDigitsUsingFormula(0);
 //        dm.findDigitsUsingDivision(0);
 
 //        dm.appendDigit(0,7);

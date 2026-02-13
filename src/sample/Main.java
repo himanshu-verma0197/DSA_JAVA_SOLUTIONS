@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class Main {
 
@@ -11,8 +11,6 @@ public class Main {
     }
 
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-
         int arr[] = { 9, 7, 11, 3, 2 };
         int temp;
 
@@ -30,6 +28,5 @@ public class Main {
         // Call function just to print
         bubblesort(arr);
 
-        sc.close();
     }
 }
